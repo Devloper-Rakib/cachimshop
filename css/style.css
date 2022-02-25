@@ -1,0 +1,18 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-darky {
+    background-color: rgba(0, 0, 0, 0.604);
+    box-shadow: 5px 5px 5px 50%;
+}
+
+.mar-top {
+    padding-top: 80px;
+}
+
+@media (max-width:350px) {
+    .site-name {
+        display: none;
+    }
+}
