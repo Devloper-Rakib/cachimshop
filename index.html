@@ -8,6 +8,7 @@
     <link rel="icon" href="images/Cachim-logo.png">
     <title>Cachim Shop</title>
     <!-- Fonts -->
+    <script src="https://kit.fontawesome.com/918d41a040.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
     </style>
@@ -29,7 +30,10 @@
                 <span class="ms-2 site-name my-auto h2">Cachim Shop</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
+                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                    <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                  </svg>
             </button>
             <div class="collapse navbar-collapse bg-sm-light" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
@@ -89,13 +93,11 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev text-black" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span style="width: 30px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M77.25 256l137.4-137.4c12.5-12.5 12.5-32.75 0-45.25s-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25l160 160C175.6 444.9 183.8 448 192 448s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25L77.25 256zM269.3 256l137.4-137.4c12.5-12.5 12.5-32.75 0-45.25s-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25l160 160C367.6 444.9 375.8 448 384 448s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25L269.3 256z"/></svg></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next text-black" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span style="width: 30px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M246.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L178.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C47.63 444.9 55.81 448 64 448s16.38-3.125 22.62-9.375l160-160C259.1 266.1 259.1 245.9 246.6 233.4zM438.6 233.4l-160-160c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L370.8 256l-137.4 137.4c-12.5 12.5-12.5 32.75 0 45.25C239.6 444.9 247.8 448 256 448s16.38-3.125 22.62-9.375l160-160C451.1 266.1 451.1 245.9 438.6 233.4z"/></svg></span>
             </button>
         </div>
     </div>
@@ -110,33 +112,68 @@
             </div>
             <div class="row g-3 ">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="p-3 rounded-3 bg-primary d-flex align-items-center flex-column">
+                    <div class="p-3 rounded-3 bg-primary box-shadow d-flex align-items-center flex-column">
                         <img src="images/bags/bag-1.png" width="60%" alt="">
                         <button type="button" class="btn btn-info btn-sm mt-3">Watch More</button>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="p-3 rounded-3 bg-info d-flex align-items-center flex-column">
+                    <div class="p-3 rounded-3 bg-info box-shadow d-flex align-items-center flex-column">
                         <img src="images/shoes/shoe-1.png" width="60%" alt="">
                         <button type="button" class="btn btn-primary btn-sm mt-3">Watch More</button>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="p-3 rounded-3 bg-primary d-flex align-items-center flex-column">
+                    <div class="p-3 rounded-3 bg-primary box-shadow d-flex align-items-center flex-column">
                         <img src="images/camera/camera1.png" width="60%" alt="">
                         <button type="button" class="btn btn-info btn-sm mt-3">Watch More</button>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="p-3 rounded-3 bg-info d-flex align-items-center flex-column">
+                    <div class="p-3 rounded-3 bg-info box-shadow d-flex align-items-center flex-column">
                         <img src="images/watch/watch1.png" width="60%" alt="">
                         <button type="button" class="btn btn-primary btn-sm mt-3">Watch More</button>
                     </div>
                 </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-3 rounded-3 bg-primary box-shadow d-flex align-items-center flex-column">
+                        <img src="images/earphone/earphone-1.png" width="60%" alt="">
+                        <button type="button" class="btn btn-info btn-sm mt-3">Watch More</button>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-3 rounded-3 bg-info box-shadow d-flex align-items-center flex-column">
+                        <img src="images/remote/remote-1.png" width="60%" alt="">
+                        <button type="button" class="btn btn-primary btn-sm mt-3">Watch More</button>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-3 rounded-3 bg-primary box-shadow d-flex align-items-center flex-column">
+                        <img src="images/tv/tv-1.png" width="60%" alt="">
+                        <button type="button" class="btn btn-info btn-sm mt-3">Watch More</button>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-3 rounded-3 bg-info box-shadow d-flex align-items-center flex-column">
+                        <img src="images/headphone/headphone-2.png" width="60%" alt="">
+                        <button type="button" class="btn btn-primary btn-sm mt-3">Watch More</button>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="p-1 rounded-3 bg-danger bg-opacity-50 box-shadow d-flex align-items-center flex-column">
+                        <a class="navbar-brand text-white " href="">
+                            <h4>See All Categories</h4>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <br><br><br><br>
+        <br><br>
         <!-- introduct -->
+        <div class="text-center">
+            <h1>let's Introduction our product quality</h1>
+        </div>
+        <br>
         <div class="introduct d-flex flex-wrap justify-content-center">
             <div class="" style="min-width: 250px; max-width: 600px;">
                 <img src="images/image/introduct.png" alt="" width="100%">
@@ -190,6 +227,125 @@
             </div>
         </div>
         <br><br>
+
+        <!-- review -->
+        <div class="">
+            <div class=" border rounded p-3 m-3">
+                <div class=" d-flex flex-wrap justify-content-center">
+                    <img src="images/image/man1.png" alt="" width="150" height="150">
+                    <div class="card-body" style="width: 80%;">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="star">
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class=" border rounded p-3 m-3">
+                <div class=" d-flex flex-wrap justify-content-center">
+                    <img src="images/image/man2.png" alt="" width="150" height="150">
+                    <div class="card-body" style="width: 80%;">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="star">
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class=" border rounded p-3 m-3">
+                <div class=" d-flex flex-wrap justify-content-center">
+                    <img src="images/image/man3.png" alt="" width="150" height="150">
+                    <div class="card-body" style="width: 80%;">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="star">
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class=" border rounded p-3 m-3">
+                <div class=" d-flex flex-wrap justify-content-center">
+                    <img src="images/image/woman1.png" alt="" width="150" height="150">
+                    <div class="card-body" style="width: 80%;">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="star">
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class=" border rounded p-3 m-3">
+                <div class=" d-flex flex-wrap justify-content-center">
+                    <img src="images/image/woman2.png" alt="" width="150" height="150">
+                    <div class="card-body" style="width: 80%;">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="star">
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class=" border rounded p-3 m-3">
+                <div class=" d-flex flex-wrap justify-content-center">
+                    <img src="images/image/woman3.png" alt="" width="150" height="150">
+                    <div class="card-body" style="width: 80%;">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="star">
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- footer -->
     <footer class="bg-danger p-2  bg-opacity-25 text-center">
